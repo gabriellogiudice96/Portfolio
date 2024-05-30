@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Lo Giudice</title>
+    <link rel="icon" href="imge/sol.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <button id="toggleButton">
+                    <img class="sol" id="toggleImage" src="imge/sol.png">
+                </button>
+            </div>
+
+            <ul>
+                <li><a href="#" class="active">About</a></li>
+                <li><a href="#portfolio-loc">Portfolio</a></li>
+                <li><a href="#contact-loc">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="landing">
+            <div class="intro">
+                <h3>I'M <Span>Gabriel Lo Giudice</Span><br>Web programmer<br>Front-end</h3>
+                <a href="#contact-loc">
+                    <button>Contact Me</button>
+                </a>
+            </div>
+            <div class="socials">
+                <a href="https://www.facebook.com/profile.php?id=100004730597607&locale=es_LA"><i
+                        class="ri-facebook-circle-fill"></i></a>
+                <a href="https://www.linkedin.com/in/gabriel-lo-giudice-368b42193/"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://github.com/gabriellogiudice96"><i class="ri-github-line"></i></a>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <h1>About</h1>
+        <div class="description">
+            <div class="line"></div>
+            <p> My orientation is front-end web development, with knowledge of technologies such as HTML, CSS,
+                JavaScript, bootstrap, React, SQL and Tailwind. <br>
+                I love putting ideas into code and creating solutions that are aesthetically understandable and
+                efficient. <br>
+                Programming for me is expressing the initiative that the client has and that the user can take advantage
+                of it, which is why it is necessary not only to personalize the page so that it stands out, but if not,
+                to know When the user expects a dynamic and simple page and when he waits, he expects a page with
+                greater interaction. <br> My personal hobbies are astronomy, drinking coffee, riding a motorcycle...</p>
+        </div>
+    </section>
+    <section class="skills">
+        <h1>My Skills</h1>
+        <div class="box">
+            <span style="--i:1;"><img src="imge/image1.jpg" alt=""></span>
+            <span style="--i:2;"><img src="imge/image2.jpg" alt=""></span>
+            <span style="--i:3;"><img src="imge/image3.jpg" alt=""></span>
+            <span style="--i:4;"><img src="imge/image4.jpg" alt=""></span>
+            <span style="--i:5;"><img src="imge/image5.jpg" alt=""></span>
+            <span style="--i:6;"><img src="imge/image6.jpg" alt=""></span>
+        </div>
+    </section>
+    <section class="skills" id="languaje">
+        <h1>Language</h1>
+        <div class="cards">
+            <div class="skill-card">
+                <img src="imge/espania.png" alt="">
+                <h2>Native</h2>
+            </div>
+            <div class="skill-card">
+                <img src="imge/inglaterra.png" alt="">
+                <h2>Advance</h2>
+            </div>
+            <div class="skill-card">
+                <img src="imge/korea.png" alt="">
+                <h2>Basic</h2>
+            </div>
+    </section>
+    <section class="portfolio" id="portfolio-loc">
+        <h1>Portfolio</h1>
+        <div class="portfolio-cards">
+            <div class="portfolio-card" class="videocontainer">
+                <a href="https://gabriellogiudice96.github.io/animationscroll/">
+                    <video src="media/scroll.mp4" autoplay loop></video> 
+                    <div class="overlay">
+                        <h3>Scroll animation</h3>
+                        <button class="seeMore">See More</button>
+                    </div>
+                </a>
+            </div>
+
+            <div class="portfolio-card">
+                <a href="https://gabriellogiudice96.github.io/watch/">
+                    <video src="media/watch.mp4" autoplay loop></video>
+                    <div class="overlay">
+                        <h3>Watch</h3>
+                        <button class="seeMore">See More</button>
+                    </div>
+                </a>
+            </div>
+
+            <div class="portfolio-card">
+                <a href=" https://gabriellogiudice96.github.io/Carga-de-Disco-Producto-/">
+                    <video src="media/cargardisco.mp4" autoplay loop></video>
+                    <div class="overlay">
+                        <h3>Upload Disk</h3>
+                        <button class="seeMore">See More</button>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio-cards">
+            <div class="portfolio-card">
+                <a href="https://gabriellogiudice96.github.io/Calendar/">
+                    <video src="media/calendar.mp4" autoplay loop></video>
+                    <div class="overlay">
+                        <h3>Scroll animation</h3>
+                        <button class="seeMore">See More</button>
+                    </div>
+                </a>
+            </div>
+
+            <div class="portfolio-card">
+                <a href="https://gabriellogiudice96.github.io/Music-Player/">
+                    <video src="media/music.mp4" autoplay loop></video>
+                    <div class="overlay">
+                        <h3>Watch</h3>
+                        <button class="seeMore">See More</button>
+                    </div>
+                </a>
+            </div>
+
+            <div class="portfolio-card">
+                <a href="https://gabriellogiudice96.github.io/weather.app/">
+                    <video src="media/clima.mp4" autoplay loop></video>
+                    <div class="overlay">
+                        <h3>Upload Disk</h3>
+                        <button class="seeMore">See More</button>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <h5 class="link">And more in</h5>
+           <a class="link" href="https://github.com/gabriellogiudice96"><button class="buttonlink">github.com/gabriellogiudice96</button></a>
+    <section class="contact-me" id="contact-loc">
+        <h1>Contact Me</h1>
+        <div class="contact">
+            <div class="contact-card">
+
+                <a download="cv" href="imge/cv.jpg" id="descargarBtn">Download CV</a>
+            </div>
+            <div class="contact-card">
+                <a href="">
+                    <p>549-1141673722</p>
+                </a>
+                <i class="ri-phone-line"></i>
+            </div>
+            <div class="contact-card">
+                <i class="ri-mail-line"></i>
+                <p>@MAIL</p>
+            </div>
+        </div>
+    </section>
+    <form action="//formspree.io/f/xpzvzgjr" method="POST">
+        <div class="lastdiv">
+            <legend> By Email </legend>
+            <div class="form">
+                <input type="text" name="name" class="name" placeholder="Name" required>
+                <input type="email" name="email" class="email" placeholder="@mail" required>
+                <input type="text" name="subject" class="subject" placeholder="subject" required>
+            </div>
+            <div class="form2">
+                <textarea type="text" class="message" name="message" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" value="Send" class="submit">Send</button>
+
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
