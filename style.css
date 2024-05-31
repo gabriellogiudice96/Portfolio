@@ -28,13 +28,14 @@ header {
   background-repeat: no-repeat;
   width: 100%;
   filter: drop-shadow(16px 7px 8px #000000);
+
 }
 
 header nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+
   width: 100%;
   z-index: 9;
 
@@ -111,6 +112,7 @@ header nav  {
 .landing .intro {
   display: flex;
   flex-direction: column;
+  
 }
 
 .landing .intro h3 {
@@ -550,4 +552,6 @@ legend{
   font-family: sans-serif;
   font-weight: 700;
 }
+
+
 
