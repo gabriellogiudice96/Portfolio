@@ -341,8 +341,8 @@ a{
 }
 
 .seeMore{
-  background-color: #17329e;
-  color: red;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   width: 130px;
   height: 20px;
 }
