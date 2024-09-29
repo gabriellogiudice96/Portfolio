@@ -553,5 +553,23 @@ legend{
   font-weight: 700;
 }
 
+.experience h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #fbfbfb;
+  font-family: "Libre Baskerville", serif;
+}
 
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 70px;
+  height: auto;
+}
 
+.experience p {
+  color: #fbfbfb;
+  font-size: 20px;
+}
